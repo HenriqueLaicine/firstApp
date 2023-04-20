@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import {Text, View, TouchableOpacity, StyleSheet, Image, TextInput} from 'react-native';
+import * as React from 'react';
+import {Text, View, TouchableOpacity, StyleSheet, TextInput} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import db from '../localdb';
 import PhonicSoundButton from '../components/PhonicSoundButton'
 
 import AppHeader from '../components/AppHeader';
 
-export default class LibScreen extends Component {
+export default class LibScreen extends React.Component {
   constructor() {
     super();
 
