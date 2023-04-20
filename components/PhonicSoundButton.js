@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     borderRadius: 10,
     margin: 5,
-    backgroundColor: '#5eca0d',
-  }
+    backgroundColor: 'red',
+  },
 });
